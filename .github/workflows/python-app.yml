@@ -37,4 +37,3 @@ jobs:
     - name: Test with pytest
       run: |
         pytest TestParImpar.py
-        pytest --cov-report html --cov . TestParImpar.py
